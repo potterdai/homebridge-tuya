@@ -116,6 +116,7 @@ class TuyaLan {
                 this.log.info('Discovered %s (%s) identified as %s (%s)', devices[config.id].name, config.id, devices[config.id].type, config.version);
 
                 const device = new TuyaAccessory({
+                    log: this.log,
                     ...devices[config.id], ...config,
                     UUID: UUID.generate(PLUGIN_NAME + ':' + config.id),
                     connect: false
