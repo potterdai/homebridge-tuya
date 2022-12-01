@@ -8,7 +8,6 @@ const CustomMultiOutletAccessory = require('./lib/CustomMultiOutletAccessory');
 const RGBTWLightAccessory = require('./lib/RGBTWLightAccessory');
 const RGBTWOutletAccessory = require('./lib/RGBTWOutletAccessory');
 const TWLightAccessory = require('./lib/TWLightAccessory');
-const AirConditionerAccessory = require('./lib/AirConditionerAccessory');
 const AirPurifierAccessory = require('./lib/AirPurifierAccessory');
 const DehumidifierAccessory = require('./lib/DehumidifierAccessory');
 const ConvectorAccessory = require('./lib/ConvectorAccessory');
@@ -16,7 +15,6 @@ const GarageDoorAccessory = require('./lib/GarageDoorAccessory');
 const SimpleDimmerAccessory = require('./lib/SimpleDimmerAccessory');
 const SimpleDimmer2Accessory = require('./lib/SimpleDimmer2Accessory');
 const SimpleBlindsAccessory = require('./lib/SimpleBlindsAccessory');
-const SimpleBlinds2Accessory = require('./lib/SimpleBlinds2Accessory');
 const SimpleHeaterAccessory = require('./lib/SimpleHeaterAccessory');
 const SimpleFanAccessory = require('./lib/SimpleFanAccessory');
 const SimpleFanLightAccessory = require('./lib/SimpleFanLightAccessory');
@@ -35,7 +33,6 @@ const CLASS_DEF = {
     twlight: TWLightAccessory,
     multioutlet: MultiOutletAccessory,
     custommultioutlet: CustomMultiOutletAccessory,
-    airconditioner: AirConditionerAccessory,
     airpurifier: AirPurifierAccessory,
     dehumidifier: DehumidifierAccessory,
     convector: ConvectorAccessory,
@@ -43,7 +40,6 @@ const CLASS_DEF = {
     simpledimmer: SimpleDimmerAccessory,
     simpledimmer2: SimpleDimmer2Accessory,    
     simpleblinds: SimpleBlindsAccessory,
-    simpleblinds2: SimpleBlinds2Accessory,
     simpleheater: SimpleHeaterAccessory,
     switch: SwitchAccessory,
     fan: SimpleFanAccessory,
